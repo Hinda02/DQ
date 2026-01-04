@@ -1,0 +1,1040 @@
+{
+  "iris": {
+    "columns": [
+      "5.1",
+      "3.5",
+      "1.4",
+      "0.2",
+      "Iris-setosa"
+    ],
+    "sample_data": [
+      [
+        "4.9",
+        "3.0",
+        "1.4",
+        "0.2",
+        "Iris-setosa"
+      ],
+      [
+        "4.7",
+        "3.2",
+        "1.3",
+        "0.2",
+        "Iris-setosa"
+      ],
+      [
+        "4.6",
+        "3.1",
+        "1.5",
+        "0.2",
+        "Iris-setosa"
+      ],
+      [
+        "5.0",
+        "3.6",
+        "1.4",
+        "0.2",
+        "Iris-setosa"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [
+          "4",
+          "5",
+          "1"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "original": "3,2,1->5"
+      },
+      {
+        "lhs": [
+          "2",
+          "5",
+          "1"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "original": "4,2,1->5"
+      },
+      {
+        "lhs": [
+          "2",
+          "4",
+          "1"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "original": "4,3,1->5"
+      }
+    ],
+    "suspicious": []
+  },
+  "balance-scale": {
+    "columns": [
+      "B",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "sample_data": [
+      [
+        "R",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      [
+        "R",
+        "1",
+        "1",
+        "1",
+        "3"
+      ],
+      [
+        "R",
+        "1",
+        "1",
+        "1",
+        "4"
+      ],
+      [
+        "R",
+        "1",
+        "1",
+        "1",
+        "5"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [
+          "1"
+        ],
+        "rhs": "B",
+        "lhs_size": 1,
+        "original": "2->1"
+      }
+    ],
+    "suspicious": []
+  },
+  "chess": {
+    "columns": [
+      "a",
+      "1",
+      "b",
+      "3",
+      "c",
+      "2",
+      "draw"
+    ],
+    "sample_data": [
+      [
+        "a",
+        "1",
+        "c",
+        "1",
+        "c",
+        "2",
+        "draw"
+      ],
+      [
+        "a",
+        "1",
+        "c",
+        "1",
+        "d",
+        "1",
+        "draw"
+      ],
+      [
+        "a",
+        "1",
+        "c",
+        "1",
+        "d",
+        "2",
+        "draw"
+      ],
+      [
+        "a",
+        "1",
+        "c",
+        "2",
+        "c",
+        "1",
+        "draw"
+      ]
+    ],
+    "plausible": [],
+    "suspicious": [
+      {
+        "lhs": [
+          "1",
+          "2",
+          "3",
+          "a",
+          "b",
+          "c"
+        ],
+        "rhs": "draw",
+        "lhs_size": 6,
+        "original": "2,6,4,1,3,5->7"
+      }
+    ]
+  },
+  "abalone": {
+    "columns": [
+      "M",
+      "0.455",
+      "0.365",
+      "0.095",
+      "0.514",
+      "0.2245",
+      "0.101",
+      "0.15",
+      "15"
+    ],
+    "sample_data": [
+      [
+        "M",
+        "0.35",
+        "0.265",
+        "0.09",
+        "0.2255",
+        "0.0995",
+        "0.0485",
+        "0.07",
+        "7"
+      ],
+      [
+        "F",
+        "0.53",
+        "0.42",
+        "0.135",
+        "0.677",
+        "0.2565",
+        "0.1415",
+        "0.21",
+        "9"
+      ],
+      [
+        "M",
+        "0.44",
+        "0.365",
+        "0.125",
+        "0.516",
+        "0.2155",
+        "0.114",
+        "0.155",
+        "10"
+      ],
+      [
+        "I",
+        "0.33",
+        "0.255",
+        "0.08",
+        "0.205",
+        "0.0895",
+        "0.0395",
+        "0.055",
+        "7"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [
+          "101",
+          "15",
+          "514"
+        ],
+        "rhs": "M",
+        "lhs_size": 3,
+        "original": "7,8,5->1"
+      },
+      {
+        "lhs": [
+          "101",
+          "15",
+          "514"
+        ],
+        "rhs": "455",
+        "lhs_size": 3,
+        "original": "7,8,5->2"
+      },
+      {
+        "lhs": [
+          "101",
+          "15",
+          "514"
+        ],
+        "rhs": "365",
+        "lhs_size": 3,
+        "original": "7,8,5->3"
+      }
+    ],
+    "suspicious": [
+      {
+        "lhs": [
+          "101",
+          "15",
+          "514"
+        ],
+        "rhs": "15",
+        "lhs_size": 3,
+        "original": "7,8,5->9"
+      },
+      {
+        "lhs": [
+          "15",
+          "2245",
+          "514"
+        ],
+        "rhs": "15",
+        "lhs_size": 3,
+        "original": "8,6,5->9"
+      },
+      {
+        "lhs": [
+          "101",
+          "514",
+          "15",
+          "M"
+        ],
+        "rhs": "15",
+        "lhs_size": 4,
+        "original": "7,5,9,1->8"
+      }
+    ]
+  },
+  "nursery": {
+    "columns": [
+      "usual",
+      "proper",
+      "complete",
+      "1",
+      "convenient",
+      "convenient",
+      "nonprob",
+      "recommended",
+      "recommend"
+    ],
+    "sample_data": [
+      [
+        "usual",
+        "proper",
+        "complete",
+        "1",
+        "convenient",
+        "convenient",
+        "nonprob",
+        "priority",
+        "priority"
+      ],
+      [
+        "usual",
+        "proper",
+        "complete",
+        "1",
+        "convenient",
+        "convenient",
+        "nonprob",
+        "not_recom",
+        "not_recom"
+      ],
+      [
+        "usual",
+        "proper",
+        "complete",
+        "1",
+        "convenient",
+        "convenient",
+        "slightly_prob",
+        "recommended",
+        "recommend"
+      ],
+      [
+        "usual",
+        "proper",
+        "complete",
+        "1",
+        "convenient",
+        "convenient",
+        "slightly_prob",
+        "priority",
+        "priority"
+      ]
+    ],
+    "plausible": [],
+    "suspicious": [
+      {
+        "lhs": [
+          "1",
+          "complete",
+          "convenient",
+          "nonprob",
+          "proper",
+          "recommended",
+          "usual"
+        ],
+        "rhs": "recommend",
+        "lhs_size": 7,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"1\"},{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"complete\"},{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"convenient\"},{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"nonprob\"},{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"proper\"},{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"recommended\"},{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"usual\"}]},\"dependant\":{\"tableIdentifier\":\"nursery.csv\",\"columnIdentifier\":\"recommend\"}}"
+      }
+    ]
+  },
+  "breast-cancer-wisconsin": {
+    "columns": [
+      "col_1",
+      "col_2",
+      "col_3",
+      "col_4",
+      "col_5",
+      "col_6",
+      "col_7",
+      "col_8",
+      "col_9",
+      "col_10",
+      "col_11"
+    ],
+    "sample_data": [
+      [
+        "1000025",
+        "5",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      [
+        "1000025",
+        "5",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      [
+        "1002945",
+        "5",
+        "4",
+        "4",
+        "5",
+        "7",
+        "10",
+        "3",
+        "2",
+        "1",
+        "2"
+      ],
+      [
+        "1015425",
+        "3",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      [
+        "1016277",
+        "6",
+        "8",
+        "8",
+        "1",
+        "3",
+        "4",
+        "3",
+        "7",
+        "1",
+        "2"
+      ],
+      [
+        "1017023",
+        "4",
+        "1",
+        "1",
+        "3",
+        "2",
+        "1",
+        "3",
+        "1",
+        "1",
+        "2"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [
+          "1",
+          "1000025"
+        ],
+        "rhs": "2",
+        "lhs_size": 2,
+        "original": "3,1->4"
+      },
+      {
+        "lhs": [
+          "1",
+          "1000025"
+        ],
+        "rhs": "2",
+        "lhs_size": 2,
+        "original": "3,1->4"
+      },
+      {
+        "lhs": [
+          "1",
+          "1000025"
+        ],
+        "rhs": "2",
+        "lhs_size": 2,
+        "original": "3,1->4"
+      }
+    ],
+    "suspicious": [
+      {
+        "lhs": [
+          "1000025",
+          "2"
+        ],
+        "rhs": "2",
+        "lhs_size": 2,
+        "original": "1,4->4"
+      },
+      {
+        "lhs": [
+          "1",
+          "1000025",
+          "5"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "original": "3,1,2->3"
+      },
+      {
+        "lhs": [
+          "1",
+          "1000025",
+          "5"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "original": "3,1,2->3"
+      }
+    ]
+  },
+  "bridges": {
+    "columns": [
+      "E1",
+      "M",
+      "3",
+      "1818",
+      "HIGHWAY",
+      "?",
+      "2",
+      "N",
+      "THROUGH",
+      "WOOD",
+      "SHORT",
+      "S",
+      "WOOD"
+    ],
+    "sample_data": [
+      [
+        "E2",
+        "A",
+        "25",
+        "1819",
+        "HIGHWAY",
+        "1037",
+        "2",
+        "N",
+        "THROUGH",
+        "WOOD",
+        "SHORT",
+        "S",
+        "WOOD"
+      ],
+      [
+        "E3",
+        "A",
+        "39",
+        "1829",
+        "AQUEDUCT",
+        "?",
+        "1",
+        "N",
+        "THROUGH",
+        "WOOD",
+        "?",
+        "S",
+        "WOOD"
+      ],
+      [
+        "E5",
+        "A",
+        "29",
+        "1837",
+        "HIGHWAY",
+        "1000",
+        "2",
+        "N",
+        "THROUGH",
+        "WOOD",
+        "SHORT",
+        "S",
+        "WOOD"
+      ],
+      [
+        "E6",
+        "M",
+        "23",
+        "1838",
+        "HIGHWAY",
+        "?",
+        "2",
+        "N",
+        "THROUGH",
+        "WOOD",
+        "?",
+        "S",
+        "WOOD"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [
+          "E1"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"E1\"}]},\"dependant\":{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"M\"}}"
+      },
+      {
+        "lhs": [
+          "E1"
+        ],
+        "rhs": "3",
+        "lhs_size": 1,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"E1\"}]},\"dependant\":{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"3\"}}"
+      },
+      {
+        "lhs": [
+          "E1"
+        ],
+        "rhs": "1818",
+        "lhs_size": 1,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"E1\"}]},\"dependant\":{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"1818\"}}"
+      }
+    ],
+    "suspicious": [
+      {
+        "lhs": [
+          "3",
+          "?",
+          "S",
+          "WOOD"
+        ],
+        "rhs": "WOOD",
+        "lhs_size": 4,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"3\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"?\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"S\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"WOOD\"}]},\"dependant\":{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"WOOD\"}}"
+      },
+      {
+        "lhs": [
+          "2",
+          "3",
+          "S",
+          "WOOD"
+        ],
+        "rhs": "WOOD",
+        "lhs_size": 4,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"2\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"3\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"S\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"WOOD\"}]},\"dependant\":{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"WOOD\"}}"
+      },
+      {
+        "lhs": [
+          "2",
+          "3",
+          "?",
+          "WOOD"
+        ],
+        "rhs": "WOOD",
+        "lhs_size": 4,
+        "original": "{\"type\":\"FunctionalDependency\",\"determinant\":{\"columnIdentifiers\":[{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"2\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"3\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"?\"},{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"WOOD\"}]},\"dependant\":{\"tableIdentifier\":\"bridges.csv\",\"columnIdentifier\":\"WOOD\"}}"
+      }
+    ]
+  },
+  "echocardiogram": {
+    "columns": [
+      "11",
+      "0",
+      "71",
+      "0",
+      "0.260",
+      "9",
+      "4.600",
+      "14",
+      "1",
+      "1",
+      "name",
+      "1",
+      "0"
+    ],
+    "sample_data": [
+      [
+        "19",
+        "0",
+        "72",
+        "0",
+        "0.380",
+        "6",
+        "4.100",
+        "14",
+        "1.700",
+        "0.588",
+        "name",
+        "1",
+        "0"
+      ],
+      [
+        "16",
+        "0",
+        "55",
+        "0",
+        "0.260",
+        "4",
+        "3.420",
+        "14",
+        "1",
+        "1",
+        "name",
+        "1",
+        "0"
+      ],
+      [
+        "57",
+        "0",
+        "60",
+        "0",
+        "0.253",
+        "12.062",
+        "4.603",
+        "16",
+        "1.450",
+        "0.788",
+        "name",
+        "1",
+        "0"
+      ],
+      [
+        "19",
+        "1",
+        "57",
+        "0",
+        "0.160",
+        "22",
+        "5.750",
+        "18",
+        "2.250",
+        "0.571",
+        "name",
+        "1",
+        "0"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [],
+        "rhs": "name",
+        "lhs_size": 0,
+        "original": "->9"
+      },
+      {
+        "lhs": [
+          "1",
+          "11"
+        ],
+        "rhs": "0",
+        "lhs_size": 2,
+        "original": "8,1->2"
+      },
+      {
+        "lhs": [
+          "11",
+          "71"
+        ],
+        "rhs": "0",
+        "lhs_size": 2,
+        "original": "1,3->2"
+      }
+    ],
+    "suspicious": [
+      {
+        "lhs": [
+          "1",
+          "600"
+        ],
+        "rhs": "1",
+        "lhs_size": 2,
+        "original": "8,6->8"
+      },
+      {
+        "lhs": [
+          "1",
+          "11",
+          "600"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "original": "8,1,6->8"
+      },
+      {
+        "lhs": [
+          "1",
+          "11",
+          "71"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "original": "8,1,3->8"
+      }
+    ]
+  },
+  "hepatitis": {
+    "columns": [
+      "col_1",
+      "col_2",
+      "col_3",
+      "col_4",
+      "col_5",
+      "col_6",
+      "col_7",
+      "col_8",
+      "col_9",
+      "col_10",
+      "col_11",
+      "col_12",
+      "col_13",
+      "col_14",
+      "col_15",
+      "col_16",
+      "col_17",
+      "col_18",
+      "col_19",
+      "col_20"
+    ],
+    "sample_data": [
+      [
+        "2",
+        "30",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1.00",
+        "85",
+        "18",
+        "4.0",
+        "?",
+        "1"
+      ],
+      [
+        "2",
+        "30",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1.00",
+        "85",
+        "18",
+        "4.0",
+        "?",
+        "1"
+      ],
+      [
+        "2",
+        "50",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0.90",
+        "135",
+        "42",
+        "3.5",
+        "?",
+        "1"
+      ],
+      [
+        "2",
+        "78",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0.70",
+        "96",
+        "32",
+        "4.0",
+        "?",
+        "1"
+      ],
+      [
+        "2",
+        "31",
+        "1",
+        "?",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0.70",
+        "46",
+        "52",
+        "4.0",
+        "80",
+        "1"
+      ],
+      [
+        "2",
+        "34",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1.00",
+        "?",
+        "200",
+        "4.0",
+        "?",
+        "1"
+      ]
+    ],
+    "plausible": [
+      {
+        "lhs": [
+          "30",
+          "?"
+        ],
+        "rhs": "2",
+        "lhs_size": 2,
+        "original": "2,8->1"
+      },
+      {
+        "lhs": [
+          "18",
+          "30"
+        ],
+        "rhs": "2",
+        "lhs_size": 2,
+        "original": "6,2->1"
+      },
+      {
+        "lhs": [
+          "18",
+          "30",
+          "0"
+        ],
+        "rhs": "2",
+        "lhs_size": 3,
+        "original": "6,2,7->1"
+      }
+    ],
+    "suspicious": [
+      {
+        "lhs": [
+          "18",
+          "2",
+          "85"
+        ],
+        "rhs": "2",
+        "lhs_size": 3,
+        "original": "6,1,5->1"
+      },
+      {
+        "lhs": [
+          "2",
+          "30",
+          "85"
+        ],
+        "rhs": "2",
+        "lhs_size": 3,
+        "original": "1,2,5->1"
+      },
+      {
+        "lhs": [
+          "00",
+          "2",
+          "30"
+        ],
+        "rhs": "2",
+        "lhs_size": 3,
+        "original": "4,1,2->1"
+      }
+    ]
+  }
+}
