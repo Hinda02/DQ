@@ -1,0 +1,417 @@
+================================================================================
+TASK SET 1 - INTERPRETING ALGORITHMIC FUNCTIONAL DEPENDENCIES
+================================================================================
+
+1. SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Dataset                           Total FDs    Avg LHS Size    Max LHS Freq
+--------------------------------------------------------------------------------
+iris                                      4            3.00               3
+balance-scale                             1            1.00               1
+chess                                     1            6.00               1
+abalone                                 137            4.22             116
+nursery                                   1            7.00               1
+breast-cancer-wisconsin                  46            2.70              40
+bridges                                 144            3.69              90
+echocardiogram                          527            3.22             312
+hepatitis                              8296            3.76            8011
+--------------------------------------------------------------------------------
+
+
+================================================================================
+DATASET: IRIS
+================================================================================
+
+Total Functional Dependencies: 4
+Average LHS Size: 3.0
+
+Top Attributes in LHS (Determinants):
+  4: 3 times
+  5: 3 times
+  1: 3 times
+  2: 3 times
+
+Top Attributes in RHS (Dependents):
+  Iris-setosa: 4 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 0
+
+Suspicious Dependencies: 0
+
+
+================================================================================
+DATASET: BALANCE-SCALE
+================================================================================
+
+Total Functional Dependencies: 1
+Average LHS Size: 1.0
+
+Top Attributes in LHS (Determinants):
+  1: 1 times
+
+Top Attributes in RHS (Dependents):
+  B: 1 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 0
+
+Suspicious Dependencies: 0
+
+
+================================================================================
+DATASET: CHESS
+================================================================================
+
+Total Functional Dependencies: 1
+Average LHS Size: 6.0
+
+Top Attributes in LHS (Determinants):
+  1: 1 times
+  2: 1 times
+  3: 1 times
+  a: 1 times
+  b: 1 times
+  c: 1 times
+
+Top Attributes in RHS (Dependents):
+  draw: 1 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 1
+  Sample:
+    1,2,3,a,b,c -> draw (LHS size: 6)
+
+Suspicious Dependencies: 0
+
+
+================================================================================
+DATASET: ABALONE
+================================================================================
+
+Total Functional Dependencies: 137
+Average LHS Size: 4.22
+
+Top Attributes in LHS (Determinants):
+  15: 116 times
+  101: 84 times
+  514: 79 times
+  2245: 77 times
+  455: 71 times
+  095: 61 times
+  365: 56 times
+  M: 34 times
+
+Top Attributes in RHS (Dependents):
+  15: 34 times
+  M: 25 times
+  365: 17 times
+  095: 14 times
+  455: 13 times
+  2245: 12 times
+  514: 12 times
+  101: 10 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 40
+  Sample:
+    095,101,365,455,15 -> M (LHS size: 5)
+    095,101,365,455,15 -> 514 (LHS size: 5)
+    095,101,365,455,15 -> 2245 (LHS size: 5)
+    095,101,365,455,15 -> 15 (LHS size: 5)
+    095,365,455,514,15 -> 2245 (LHS size: 5)
+
+Suspicious Dependencies: 19
+  Sample:
+    101,15,514 -> 15
+      Reason: RHS appears in LHS (trivial)
+    15,2245,514 -> 15
+      Reason: RHS appears in LHS (trivial)
+    101,514,15,M -> 15
+      Reason: RHS appears in LHS (trivial)
+    15,365,455,514 -> 15
+      Reason: RHS appears in LHS (trivial)
+    095,101,15,2245 -> 15
+      Reason: RHS appears in LHS (trivial)
+    101,2245,514,15 -> 15
+      Reason: RHS appears in LHS (trivial)
+    101,2245,455,15 -> 15
+      Reason: RHS appears in LHS (trivial)
+    101,365,514,15 -> 15
+      Reason: RHS appears in LHS (trivial)
+    2245,365,514,15 -> 15
+      Reason: RHS appears in LHS (trivial)
+    095,101,2245,15 -> 15
+      Reason: RHS appears in LHS (trivial)
+
+
+================================================================================
+DATASET: NURSERY
+================================================================================
+
+Total Functional Dependencies: 1
+Average LHS Size: 7.0
+
+Top Attributes in LHS (Determinants):
+  1: 1 times
+  complete: 1 times
+  convenient: 1 times
+  nonprob: 1 times
+  proper: 1 times
+  recommended: 1 times
+  usual: 1 times
+
+Top Attributes in RHS (Dependents):
+  recommend: 1 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 1
+  Sample:
+    1,complete,convenient,nonprob,proper,recommended,usual -> recommend (LHS size: 7)
+
+Suspicious Dependencies: 1
+  Sample:
+    1,complete,convenient,nonprob,proper,recommended,usual -> recommend
+      Reason: Very large LHS (7 attributes)
+
+
+================================================================================
+DATASET: BREAST-CANCER-WISCONSIN
+================================================================================
+
+Total Functional Dependencies: 46
+Average LHS Size: 2.7
+
+Top Attributes in LHS (Determinants):
+  1: 40 times
+  1000025: 27 times
+  5: 26 times
+  3: 17 times
+  2: 14 times
+
+Top Attributes in RHS (Dependents):
+  2: 31 times
+  1: 15 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 0
+
+Suspicious Dependencies: 22
+  Sample:
+    1000025,2 -> 2
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,3 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025,5 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,1000025 -> 1
+      Reason: RHS appears in LHS (trivial)
+
+
+================================================================================
+DATASET: BRIDGES
+================================================================================
+
+Total Functional Dependencies: 144
+Average LHS Size: 3.69
+
+Top Attributes in LHS (Determinants):
+  ?: 90 times
+  3: 66 times
+  WOOD: 54 times
+  THROUGH: 47 times
+  1818: 46 times
+  HIGHWAY: 43 times
+  2: 40 times
+  S: 39 times
+  SHORT: 39 times
+  M: 30 times
+
+Top Attributes in RHS (Dependents):
+  WOOD: 47 times
+  S: 24 times
+  N: 21 times
+  HIGHWAY: 19 times
+  2: 11 times
+  3: 4 times
+  THROUGH: 4 times
+  SHORT: 4 times
+  E1: 4 times
+  M: 3 times
+
+Potential ID Columns (Degenerate FDs):
+  E1: appears as single determinant in 12 FDs
+
+FDs with Large Determinants (5+ attributes): 43
+  Sample:
+    1818,HIGHWAY,M,N,SHORT -> 2 (LHS size: 5)
+    ?,HIGHWAY,M,S,THROUGH -> N (LHS size: 5)
+    3,N,S,SHORT,THROUGH -> WOOD (LHS size: 5)
+    1818,HIGHWAY,M,SHORT,THROUGH -> WOOD (LHS size: 5)
+    ?,HIGHWAY,M,SHORT,WOOD -> S (LHS size: 5)
+
+Suspicious Dependencies: 12
+  Sample:
+    3,?,S,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    2,3,S,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    2,3,?,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    3,?,HIGHWAY,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    3,?,SHORT,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    3,N,S,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    3,?,THROUGH,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    3,?,THROUGH,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    2,?,HIGHWAY,M,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+    ?,HIGHWAY,M,THROUGH,WOOD -> WOOD
+      Reason: RHS appears in LHS (trivial)
+
+
+================================================================================
+DATASET: ECHOCARDIOGRAM
+================================================================================
+
+Total Functional Dependencies: 527
+Average LHS Size: 3.22
+
+Top Attributes in LHS (Determinants):
+  1: 312 times
+  0: 261 times
+  600: 220 times
+  9: 213 times
+  71: 197 times
+  260: 196 times
+  14: 154 times
+  11: 145 times
+
+Top Attributes in RHS (Dependents):
+  0: 144 times
+  1: 137 times
+  11: 52 times
+  14: 49 times
+  71: 47 times
+  260: 35 times
+  9: 32 times
+  600: 30 times
+  name: 1 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 0
+
+Suspicious Dependencies: 118
+  Sample:
+    1,600 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,11,600 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,11,71 -> 1
+      Reason: RHS appears in LHS (trivial)
+    1,11,71 -> 1
+      Reason: RHS appears in LHS (trivial)
+    260,1,71 -> 1
+      Reason: RHS appears in LHS (trivial)
+    260,1,71 -> 1
+      Reason: RHS appears in LHS (trivial)
+    260,1,11 -> 1
+      Reason: RHS appears in LHS (trivial)
+    0,11,600 -> 0
+      Reason: RHS appears in LHS (trivial)
+    0,11,600 -> 0
+      Reason: RHS appears in LHS (trivial)
+    1,71,9 -> 1
+      Reason: RHS appears in LHS (trivial)
+
+
+================================================================================
+DATASET: HEPATITIS
+================================================================================
+
+Total Functional Dependencies: 8296
+Average LHS Size: 3.76
+
+Top Attributes in LHS (Determinants):
+  2: 8011 times
+  1: 5909 times
+  18: 3905 times
+  00: 2997 times
+  ?: 2954 times
+  0: 2838 times
+  85: 2704 times
+  30: 1909 times
+
+Top Attributes in RHS (Dependents):
+  2: 6232 times
+  1: 1010 times
+  30: 254 times
+  85: 252 times
+  0: 178 times
+  00: 176 times
+  18: 100 times
+  ?: 94 times
+
+Potential ID Columns (Degenerate FDs):
+  None identified
+
+FDs with Large Determinants (5+ attributes): 1244
+  Sample:
+    1,00,18,2,? -> 30 (LHS size: 5)
+    1,00,18,2,? -> 2 (LHS size: 5)
+    1,00,18,2,? -> 2 (LHS size: 5)
+    1,00,18,2,? -> 1 (LHS size: 5)
+    1,00,18,2,? -> 2 (LHS size: 5)
+
+Suspicious Dependencies: 6654
+  Sample:
+    18,2,85 -> 2
+      Reason: RHS appears in LHS (trivial)
+    2,30,85 -> 2
+      Reason: RHS appears in LHS (trivial)
+    00,2,30 -> 2
+      Reason: RHS appears in LHS (trivial)
+    00,2,30 -> 2
+      Reason: RHS appears in LHS (trivial)
+    18,2,0 -> 2
+      Reason: RHS appears in LHS (trivial)
+    00,2,85 -> 2
+      Reason: RHS appears in LHS (trivial)
+    18,2,30 -> 2
+      Reason: RHS appears in LHS (trivial)
+    00,2,30 -> 2
+      Reason: RHS appears in LHS (trivial)
+    00,2,85 -> 2
+      Reason: RHS appears in LHS (trivial)
+    18,2,0 -> 2
+      Reason: RHS appears in LHS (trivial)
