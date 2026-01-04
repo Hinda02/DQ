@@ -1,0 +1,85 @@
+{
+  "dataset": "iris",
+  "sample_type": "random",
+  "sample_size": 50,
+  "original_size": 149,
+  "columns": [
+    "5.1",
+    "3.5",
+    "1.4",
+    "0.2",
+    "Iris-setosa"
+  ],
+  "sample_rows": [
+    {
+      "5.1": 6.4,
+      "3.5": 2.9,
+      "1.4": 4.3,
+      "0.2": 1.3,
+      "Iris-setosa": "Iris-versicolor"
+    },
+    {
+      "5.1": 5.1,
+      "3.5": 3.8,
+      "1.4": 1.5,
+      "0.2": 0.3,
+      "Iris-setosa": "Iris-setosa"
+    },
+    {
+      "5.1": 7.7,
+      "3.5": 2.6,
+      "1.4": 6.9,
+      "0.2": 2.3,
+      "Iris-setosa": "Iris-virginica"
+    },
+    {
+      "5.1": 5.7,
+      "3.5": 2.6,
+      "1.4": 3.5,
+      "0.2": 1.0,
+      "Iris-setosa": "Iris-versicolor"
+    },
+    {
+      "5.1": 6.7,
+      "3.5": 3.0,
+      "1.4": 5.0,
+      "0.2": 1.7,
+      "Iris-setosa": "Iris-versicolor"
+    },
+    {
+      "5.1": 5.2,
+      "3.5": 4.1,
+      "1.4": 1.5,
+      "0.2": 0.1,
+      "Iris-setosa": "Iris-setosa"
+    },
+    {
+      "5.1": 6.7,
+      "3.5": 3.1,
+      "1.4": 4.4,
+      "0.2": 1.4,
+      "Iris-setosa": "Iris-versicolor"
+    },
+    {
+      "5.1": 6.9,
+      "3.5": 3.1,
+      "1.4": 5.1,
+      "0.2": 2.3,
+      "Iris-setosa": "Iris-virginica"
+    },
+    {
+      "5.1": 5.6,
+      "3.5": 2.5,
+      "1.4": 3.9,
+      "0.2": 1.1,
+      "Iris-setosa": "Iris-versicolor"
+    },
+    {
+      "5.1": 6.0,
+      "3.5": 2.7,
+      "1.4": 5.1,
+      "0.2": 1.6,
+      "Iris-setosa": "Iris-versicolor"
+    }
+  ]
+}

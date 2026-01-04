@@ -1,0 +1,6583 @@
+[
+  {
+    "dataset": "iris",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 149,
+    "total_hypotheses": 12,
+    "validation_results": {
+      "FALSE_POSITIVE": 8,
+      "TRUE_POSITIVE": 4
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "5.1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "5.1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "Iris-setosa"
+        ],
+        "rhs": "5.1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0.6666666666666666
+  },
+  {
+    "dataset": "iris",
+    "sample_type": "stratified",
+    "sample_size": 48,
+    "full_size": 149,
+    "total_hypotheses": 13,
+    "validation_results": {
+      "FALSE_POSITIVE": 9,
+      "TRUE_POSITIVE": 4
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "5.1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "Iris-setosa"
+        ],
+        "rhs": "5.1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "1.4",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "0.2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "Iris-setosa"
+        ],
+        "rhs": "0.2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0.6923076923076923
+  },
+  {
+    "dataset": "iris",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 149,
+    "total_hypotheses": 14,
+    "validation_results": {
+      "FALSE_POSITIVE": 10,
+      "TRUE_POSITIVE": 4
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "5.1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "3.5",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "1.4"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "3.5",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "5.1",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3.5",
+          "1.4",
+          "0.2"
+        ],
+        "rhs": "Iris-setosa",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0.7142857142857143
+  },
+  {
+    "dataset": "balance-scale",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 624,
+    "total_hypotheses": 0,
+    "validation_results": {},
+    "validated_hypotheses": [],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0
+  },
+  {
+    "dataset": "balance-scale",
+    "sample_type": "stratified",
+    "sample_size": 49,
+    "full_size": 624,
+    "total_hypotheses": 0,
+    "validation_results": {},
+    "validated_hypotheses": [],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0
+  },
+  {
+    "dataset": "balance-scale",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 624,
+    "total_hypotheses": 0,
+    "validation_results": {},
+    "validated_hypotheses": [],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0
+  },
+  {
+    "dataset": "chess",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 28055,
+    "total_hypotheses": 2,
+    "validation_results": {
+      "FALSE_POSITIVE": 2
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "1",
+          "3",
+          "c"
+        ],
+        "rhs": "a",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "2",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 1.0
+  },
+  {
+    "dataset": "chess",
+    "sample_type": "stratified",
+    "sample_size": 50,
+    "full_size": 28055,
+    "total_hypotheses": 10,
+    "validation_results": {
+      "FALSE_POSITIVE": 10
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "b",
+          "c",
+          "2"
+        ],
+        "rhs": "a",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "2",
+          "draw"
+        ],
+        "rhs": "a",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "3",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "c",
+          "2"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "c",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "2",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "2",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "2",
+          "draw"
+        ],
+        "rhs": "b",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "c",
+          "2"
+        ],
+        "rhs": "3",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "c",
+          "2"
+        ],
+        "rhs": "draw",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 1.0
+  },
+  {
+    "dataset": "chess",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 28055,
+    "total_hypotheses": 8,
+    "validation_results": {
+      "FALSE_POSITIVE": 8
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "b",
+          "3",
+          "2"
+        ],
+        "rhs": "a",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "c",
+          "2"
+        ],
+        "rhs": "a",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "3",
+          "2"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "2",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "c",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "c",
+          "2",
+          "draw"
+        ],
+        "rhs": "1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "3",
+          "2"
+        ],
+        "rhs": "c",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "b",
+          "3",
+          "2"
+        ],
+        "rhs": "draw",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 1.0
+  },
+  {
+    "dataset": "abalone",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 4176,
+    "total_hypotheses": 617,
+    "validation_results": {
+      "FALSE_POSITIVE": 599,
+      "TRUE_POSITIVE": 18
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.365"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.2245",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.2245",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0.9708265802269044
+  },
+  {
+    "dataset": "abalone",
+    "sample_type": "stratified",
+    "sample_size": 50,
+    "full_size": 4176,
+    "total_hypotheses": 669,
+    "validation_results": {
+      "FALSE_POSITIVE": 651,
+      "TRUE_POSITIVE": 18
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.095"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0.9730941704035875
+  },
+  {
+    "dataset": "abalone",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 4176,
+    "total_hypotheses": 623,
+    "validation_results": {
+      "FALSE_POSITIVE": 605,
+      "TRUE_POSITIVE": 18
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.095"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.455",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.095"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.365",
+          "15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.514"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.095",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.2245"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.101"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "0.15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.514",
+          "15"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0.971107544141252
+  },
+  {
+    "dataset": "nursery",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 12959,
+    "total_hypotheses": 0,
+    "validation_results": {},
+    "validated_hypotheses": [],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0
+  },
+  {
+    "dataset": "nursery",
+    "sample_type": "stratified",
+    "sample_size": 49,
+    "full_size": 12959,
+    "total_hypotheses": 0,
+    "validation_results": {},
+    "validated_hypotheses": [],
+    "non_minimal_fds": [],
+    "false_positive_rate": 0
+  },
+  {
+    "dataset": "nursery",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 12959,
+    "total_hypotheses": 1,
+    "validation_results": {
+      "FALSE_POSITIVE": 1
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "proper",
+          "complete",
+          "1"
+        ],
+        "rhs": "convenient.1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [],
+    "false_positive_rate": 1.0
+  },
+  {
+    "dataset": "breast-cancer-wisconsin",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 698,
+    "total_hypotheses": 555,
+    "validation_results": {
+      "FALSE_POSITIVE": 499,
+      "TRUE_POSITIVE": 56
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "col_1"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_7"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_8"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_9"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_10"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_11"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_4"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_7"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_8"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_9"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_10"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_11"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['col_1', 'col_2', 'col_3'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_3"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_4'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_4"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_5'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_5"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_6'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_6"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_7'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_7"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_8'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_8"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_9'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_9"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_10'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_10"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_3', 'col_4'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_4"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_3', 'col_5'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_5"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.8990990990990991
+  },
+  {
+    "dataset": "breast-cancer-wisconsin",
+    "sample_type": "stratified",
+    "sample_size": 49,
+    "full_size": 698,
+    "total_hypotheses": 565,
+    "validation_results": {
+      "FALSE_POSITIVE": 509,
+      "TRUE_POSITIVE": 56
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "col_1"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_7"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_8"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_9"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_10"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_11"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_4"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_7"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_8"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_9"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_10"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_11"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['col_1', 'col_2', 'col_3'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_3"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_4'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_4"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_5'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_5"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_6'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_6"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_7'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_7"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_8'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_8"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_9'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_9"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_10'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_10"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_3', 'col_4'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_4"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_3', 'col_5'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_5"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.9008849557522124
+  },
+  {
+    "dataset": "breast-cancer-wisconsin",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 698,
+    "total_hypotheses": 563,
+    "validation_results": {
+      "FALSE_POSITIVE": 507,
+      "TRUE_POSITIVE": 56
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "col_1"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_7"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_8"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_9"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_10"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_11"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_4"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_7"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_8"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_9"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_10"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_11"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4",
+          "col_5"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_1",
+          "col_4",
+          "col_6"
+        ],
+        "rhs": "col_2",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['col_1', 'col_2', 'col_3'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_3"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_4'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_4"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_5'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_5"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_6'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_6"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_7'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_7"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_8'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_8"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_9'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_9"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_2', 'col_10'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_10"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_2"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_3', 'col_4'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_4"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_1', 'col_3', 'col_5'] \u2192 col_11",
+        "lhs": [
+          "col_1",
+          "col_3",
+          "col_5"
+        ],
+        "rhs": "col_11",
+        "minimal_lhs": [
+          "col_1",
+          "col_3"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.9005328596802842
+  },
+  {
+    "dataset": "bridges",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 107,
+    "total_hypotheses": 1222,
+    "validation_results": {
+      "TRUE_POSITIVE": 1041,
+      "FALSE_POSITIVE": 181
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "M",
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "M",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "M",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "HIGHWAY"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "2"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "N"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "SHORT"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "HIGHWAY",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "?",
+          "2"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "HIGHWAY",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "2"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "N"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['M', '3', '1818'] \u2192 E1",
+        "lhs": [
+          "M",
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'HIGHWAY'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "HIGHWAY"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', '?'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', '2'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "2"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'N'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "N"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'THROUGH'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'WOOD'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'SHORT'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "SHORT"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'S'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'WOOD.1'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.14811783960720132
+  },
+  {
+    "dataset": "bridges",
+    "sample_type": "stratified",
+    "sample_size": 49,
+    "full_size": 107,
+    "total_hypotheses": 1203,
+    "validation_results": {
+      "TRUE_POSITIVE": 1041,
+      "FALSE_POSITIVE": 162
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "M",
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "M",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "HIGHWAY"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "2"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "N"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "SHORT"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "HIGHWAY",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "S"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "3"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "1818"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "HIGHWAY"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['M', '3', '1818'] \u2192 E1",
+        "lhs": [
+          "M",
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'HIGHWAY'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "HIGHWAY"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', '?'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', '2'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "2"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'N'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "N"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'THROUGH'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'WOOD'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'SHORT'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "SHORT"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'S'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'WOOD.1'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.13466334164588528
+  },
+  {
+    "dataset": "bridges",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 107,
+    "total_hypotheses": 1163,
+    "validation_results": {
+      "TRUE_POSITIVE": 1041,
+      "FALSE_POSITIVE": 122
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "M",
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "HIGHWAY"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "2"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "N"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "SHORT"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "HIGHWAY",
+          "?"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "S"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "1818",
+          "?",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "3"
+        ],
+        "rhs": "M",
+        "lhs_size": 1,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "3"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "1818"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "HIGHWAY"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "E1",
+          "?"
+        ],
+        "rhs": "M",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['M', '3', '1818'] \u2192 E1",
+        "lhs": [
+          "M",
+          "3",
+          "1818"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'HIGHWAY'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "HIGHWAY"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', '?'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "?"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', '2'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "2"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'N'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "N"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'THROUGH'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "THROUGH"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'WOOD'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'SHORT'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "SHORT"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'S'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "S"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['3', '1818', 'WOOD.1'] \u2192 E1",
+        "lhs": [
+          "3",
+          "1818",
+          "WOOD.1"
+        ],
+        "rhs": "E1",
+        "minimal_lhs": [
+          "3",
+          "1818"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.10490111779879621
+  },
+  {
+    "dataset": "echocardiogram",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 131,
+    "total_hypotheses": 1361,
+    "validation_results": {
+      "FALSE_POSITIVE": 596,
+      "TRUE_POSITIVE": 765
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "71",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "4.600",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.260",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.260",
+          "1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.260",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.260",
+          "0.2"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['11', '71', '0.1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '0.260'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.260"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '9'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "9"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '4.600'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "4.600"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '14'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "14"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1.1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1.1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', 'name'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "name"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1.2'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1.2"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '0.2'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.2"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.43791329904481996
+  },
+  {
+    "dataset": "echocardiogram",
+    "sample_type": "stratified",
+    "sample_size": 49,
+    "full_size": 131,
+    "total_hypotheses": 1489,
+    "validation_results": {
+      "FALSE_POSITIVE": 724,
+      "TRUE_POSITIVE": 765
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "71",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "0.260",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "0.260",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "9",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "9",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "9",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "0.2"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['11', '71', '0.1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '0.260'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.260"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '9'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "9"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '4.600'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "4.600"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '14'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "14"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1.1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1.1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', 'name'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "name"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1.2'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1.2"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '0.2'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.2"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.4862323707186031
+  },
+  {
+    "dataset": "echocardiogram",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 131,
+    "total_hypotheses": 1661,
+    "validation_results": {
+      "FALSE_POSITIVE": 896,
+      "TRUE_POSITIVE": 765
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "71",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0.260",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "9",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "9",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "4.600",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "4.600",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "71",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "0.260",
+          "9"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "0.260",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "9",
+          "4.600"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "9",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "14"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "0",
+          "4.600",
+          "1.1"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "71",
+          "0.1",
+          "0.260"
+        ],
+        "rhs": "11",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['11', '71', '0.1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '0.260'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.260"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '9'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "9"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '4.600'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "4.600"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '14'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "14"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1.1'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1.1"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', 'name'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "name"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '1.2'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "1.2"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['11', '71', '0.2'] \u2192 0",
+        "lhs": [
+          "11",
+          "71",
+          "0.2"
+        ],
+        "rhs": "0",
+        "minimal_lhs": [
+          "11",
+          "71"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.5394340758579169
+  },
+  {
+    "dataset": "hepatitis",
+    "sample_type": "random",
+    "sample_size": 50,
+    "full_size": 154,
+    "total_hypotheses": 2422,
+    "validation_results": {
+      "FALSE_POSITIVE": 2165,
+      "TRUE_POSITIVE": 257
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "col_2",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_7",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_11"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_14"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_20"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['col_1', 'col_2', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_4', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_5', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_6', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_7', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_7",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_8', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_8",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_9', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_9",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_10', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_10",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_11', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_11",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_12', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_12",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.8938893476465731
+  },
+  {
+    "dataset": "hepatitis",
+    "sample_type": "stratified",
+    "sample_size": 49,
+    "full_size": 154,
+    "total_hypotheses": 2223,
+    "validation_results": {
+      "FALSE_POSITIVE": 1977,
+      "TRUE_POSITIVE": 246
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "col_2",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_7",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_9"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['col_1', 'col_2', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_4', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_5', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_6', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_7', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_7",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_8', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_8",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_9', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_9",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_10', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_10",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_11', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_11",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_12', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_12",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.8893387314439946
+  },
+  {
+    "dataset": "hepatitis",
+    "sample_type": "biased",
+    "sample_size": 50,
+    "full_size": 154,
+    "total_hypotheses": 2220,
+    "validation_results": {
+      "FALSE_POSITIVE": 1969,
+      "TRUE_POSITIVE": 251
+    },
+    "validated_hypotheses": [
+      {
+        "lhs": [
+          "col_2",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_15",
+          "col_16"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_15",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_16",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_16",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_17",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_17",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 2,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_3",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "True",
+        "classification": "TRUE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_17"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_10"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_15"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_18"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      },
+      {
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_19"
+        ],
+        "rhs": "col_1",
+        "lhs_size": 3,
+        "holds_on_sample": "True",
+        "holds_on_full": "False",
+        "classification": "FALSE_POSITIVE",
+        "source": "sample_observation"
+      }
+    ],
+    "non_minimal_fds": [
+      {
+        "fd": "['col_1', 'col_2', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_1",
+          "col_2",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_4', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_4",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_5', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_5",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_6', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_6",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_7', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_7",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_8', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_8",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_9', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_9",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_10', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_10",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_11', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_11",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      },
+      {
+        "fd": "['col_2', 'col_12', 'col_17'] \u2192 col_3",
+        "lhs": [
+          "col_2",
+          "col_12",
+          "col_17"
+        ],
+        "rhs": "col_3",
+        "minimal_lhs": [
+          "col_2",
+          "col_17"
+        ],
+        "reduced_by": 1
+      }
+    ],
+    "false_positive_rate": 0.886936936936937
+  }
+]

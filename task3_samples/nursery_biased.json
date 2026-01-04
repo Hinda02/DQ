@@ -1,0 +1,129 @@
+{
+  "dataset": "nursery",
+  "sample_type": "biased",
+  "sample_size": 50,
+  "original_size": 12959,
+  "columns": [
+    "usual",
+    "proper",
+    "complete",
+    "1",
+    "convenient",
+    "convenient.1",
+    "nonprob",
+    "recommended",
+    "recommend"
+  ],
+  "sample_rows": [
+    {
+      "usual": "usual",
+      "proper": "improper",
+      "complete": "completed",
+      "1": "more",
+      "convenient": "less_conv",
+      "convenient.1": "inconv",
+      "nonprob": "nonprob",
+      "recommended": "not_recom",
+      "recommend": "not_recom"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "less_proper",
+      "complete": "incomplete",
+      "1": "2",
+      "convenient": "critical",
+      "convenient.1": "inconv",
+      "nonprob": "nonprob",
+      "recommended": "recommended",
+      "recommend": "priority"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "critical",
+      "complete": "foster",
+      "1": "2",
+      "convenient": "convenient",
+      "convenient.1": "convenient",
+      "nonprob": "nonprob",
+      "recommended": "recommended",
+      "recommend": "priority"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "very_crit",
+      "complete": "foster",
+      "1": "1",
+      "convenient": "critical",
+      "convenient.1": "convenient",
+      "nonprob": "problematic",
+      "recommended": "not_recom",
+      "recommend": "not_recom"
+    },
+    {
+      "usual": "usual",
+      "proper": "less_proper",
+      "complete": "completed",
+      "1": "2",
+      "convenient": "convenient",
+      "convenient.1": "convenient",
+      "nonprob": "nonprob",
+      "recommended": "priority",
+      "recommend": "priority"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "less_proper",
+      "complete": "incomplete",
+      "1": "3",
+      "convenient": "convenient",
+      "convenient.1": "convenient",
+      "nonprob": "problematic",
+      "recommended": "not_recom",
+      "recommend": "not_recom"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "very_crit",
+      "complete": "complete",
+      "1": "1",
+      "convenient": "less_conv",
+      "convenient.1": "inconv",
+      "nonprob": "problematic",
+      "recommended": "recommended",
+      "recommend": "spec_prior"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "improper",
+      "complete": "complete",
+      "1": "more",
+      "convenient": "less_conv",
+      "convenient.1": "inconv",
+      "nonprob": "problematic",
+      "recommended": "not_recom",
+      "recommend": "not_recom"
+    },
+    {
+      "usual": "great_pret",
+      "proper": "improper",
+      "complete": "incomplete",
+      "1": "more",
+      "convenient": "critical",
+      "convenient.1": "inconv",
+      "nonprob": "slightly_prob",
+      "recommended": "recommended",
+      "recommend": "spec_prior"
+    },
+    {
+      "usual": "usual",
+      "proper": "improper",
+      "complete": "incomplete",
+      "1": "1",
+      "convenient": "convenient",
+      "convenient.1": "convenient",
+      "nonprob": "slightly_prob",
+      "recommended": "recommended",
+      "recommend": "very_recom"
+    }
+  ]
+}

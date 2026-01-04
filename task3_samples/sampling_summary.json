@@ -1,0 +1,193 @@
+{
+  "iris": {
+    "total_rows": 149,
+    "total_columns": 5,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "5.1",
+      "3.5",
+      "1.4",
+      "0.2",
+      "Iris-setosa"
+    ]
+  },
+  "balance-scale": {
+    "total_rows": 624,
+    "total_columns": 5,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "B",
+      "1",
+      "1.1",
+      "1.2",
+      "1.3"
+    ]
+  },
+  "chess": {
+    "total_rows": 28055,
+    "total_columns": 7,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "a",
+      "1",
+      "b",
+      "3",
+      "c",
+      "2",
+      "draw"
+    ]
+  },
+  "abalone": {
+    "total_rows": 4176,
+    "total_columns": 9,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "M",
+      "0.455",
+      "0.365",
+      "0.095",
+      "0.514",
+      "0.2245",
+      "0.101",
+      "0.15",
+      "15"
+    ]
+  },
+  "nursery": {
+    "total_rows": 12959,
+    "total_columns": 9,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "usual",
+      "proper",
+      "complete",
+      "1",
+      "convenient",
+      "convenient.1",
+      "nonprob",
+      "recommended",
+      "recommend"
+    ]
+  },
+  "breast-cancer-wisconsin": {
+    "total_rows": 699,
+    "total_columns": 11,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "col_1",
+      "col_2",
+      "col_3",
+      "col_4",
+      "col_5",
+      "col_6",
+      "col_7",
+      "col_8",
+      "col_9",
+      "col_10",
+      "col_11"
+    ]
+  },
+  "bridges": {
+    "total_rows": 107,
+    "total_columns": 13,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "E1",
+      "M",
+      "3",
+      "1818",
+      "HIGHWAY",
+      "?",
+      "2",
+      "N",
+      "THROUGH",
+      "WOOD",
+      "SHORT",
+      "S",
+      "WOOD.1"
+    ]
+  },
+  "echocardiogram": {
+    "total_rows": 131,
+    "total_columns": 13,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "11",
+      "0",
+      "71",
+      "0.1",
+      "0.260",
+      "9",
+      "4.600",
+      "14",
+      "1",
+      "1.1",
+      "name",
+      "1.2",
+      "0.2"
+    ]
+  },
+  "hepatitis": {
+    "total_rows": 155,
+    "total_columns": 20,
+    "samples_created": [
+      "random",
+      "stratified",
+      "biased"
+    ],
+    "column_names": [
+      "col_1",
+      "col_2",
+      "col_3",
+      "col_4",
+      "col_5",
+      "col_6",
+      "col_7",
+      "col_8",
+      "col_9",
+      "col_10",
+      "col_11",
+      "col_12",
+      "col_13",
+      "col_14",
+      "col_15",
+      "col_16",
+      "col_17",
+      "col_18",
+      "col_19",
+      "col_20"
+    ]
+  }
+}
